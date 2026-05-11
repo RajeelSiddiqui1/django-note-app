@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
- web:
-  image: rajeel/django-note-app:latest
+  web:
+    image: rajeel/django-note-app:latest
     ports:
-     - 8000:8000
+      - "8000:8000"
