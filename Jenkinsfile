@@ -49,7 +49,7 @@ pipeline {
         always {
             script {
                 echo 'Cleaning up space in ubuntu'
-                clean_docker_space()
+                sh 'docker system prune -f'
             }
         }
     }
