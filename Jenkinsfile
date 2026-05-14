@@ -48,7 +48,7 @@ pipeline {
     post {
         always {
             script {
-                echo 'Cleaning up space in ubuntu'
+                echo 'Cleaning up space in ubuntu...'
                 sh 'docker system prune -f'
             }
         }
