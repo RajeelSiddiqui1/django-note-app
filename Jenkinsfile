@@ -48,7 +48,7 @@ pipeline {
     post {
         always {
             script {
-                echo 'Cleaning up space...'
+                echo 'Cleaning up space in ubuntu'
                 clean_docker_space()
             }
         }
